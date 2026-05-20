@@ -68,8 +68,9 @@
       <a href="#inicio" class="active">Inicio</a>
       <a href="#nosotros">Nosotros</a>
       <a href="#casinos">Casinos</a>
-      <a href="#eventos">Eventos</a>
+      <a href="#sedes">Sedes</a>
       <a href="#wplay">Wplay.co</a>
+      <a href="#eventos">Eventos</a>
       <a href="#financieros">Financieros</a>
       <a href="#contacto">Contacto</a>
     </nav>
@@ -108,6 +109,15 @@
       <div class="card-deco card-b">K♥</div>
     </div>
   </div>
+  <a href="#nosotros" class="scroll-hint" aria-label="Desplazarse hacia abajo">
+    <span class="scroll-hint-text">Descubre más</span>
+    <span class="scroll-hint-mouse">
+      <span class="scroll-hint-dot"></span>
+    </span>
+    <svg class="scroll-hint-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  </a>
 </section>
 
 <!-- Banner notice -->
@@ -128,9 +138,9 @@
       <p class="lead">En <strong>Casinos Fortuna</strong> somos una organización dedicada al entretenimiento y la operación de juegos de azar, parte de la casa de apuestas <strong>Wplay.co</strong>. Operamos en Colombia desde <strong>2004</strong>, con presencia en más de 8 municipios del departamento del Meta a través de más de 18 centros de entretenimiento.</p>
       <p class="lead">Atendemos a más de <strong>8.5 millones de visitantes al año</strong>, construyendo centros de ocio y entretenimiento que cumplen con la regulación estatal colombiana.</p>
       <div class="about-stats">
-        <div><strong>+20</strong><span>Años de trayectoria</span></div>
-        <div><strong>+18</strong><span>Centros en el Meta</span></div>
-        <div><strong>+8M</strong><span>Visitantes/año</span></div>
+        <div><strong data-count="20" data-prefix="+">+20</strong><span>Años de trayectoria</span></div>
+        <div><strong data-count="18" data-prefix="+">+18</strong><span>Centros en el Meta</span></div>
+        <div><strong data-count="8" data-prefix="+" data-suffix="M">+8M</strong><span>Visitantes/año</span></div>
       </div>
     </div>
     <div class="about-card">
@@ -144,39 +154,95 @@
 <!-- Nuestros Casinos -->
 <section id="casinos" class="section section-dark">
   <div class="container">
-    <h2 class="section-title">Nuestros Casinos</h2>
-    <p class="section-sub">Salas especializadas con todo lo que necesitas para jugar y apostar cómodamente</p>
+    <div class="section-head center-head">
+      <span class="hero-eyebrow">Nuestros servicios</span>
+      <h2 class="section-title">Nuestros Casinos</h2>
+      <p class="section-sub">Salas especializadas con todo lo que necesitas para jugar y apostar cómodamente</p>
+    </div>
 
-    <div class="feature-grid">
+    <div class="feature-bento">
+      <article class="feature-card feature-featured">
+        <span class="feature-num">01</span>
+        <div class="feature-icon feature-icon-lg"><svg class="ico"><use href="#i-dice"/></svg></div>
+        <h3>Máquinas de juego</h3>
+        <p>Variedad de máquinas tragamonedas y juegos electrónicos de última generación para todos los gustos. La experiencia de casino más completa de Villavicencio.</p>
+        <div class="feature-tags">
+          <span>Tragamonedas</span>
+          <span>Ruleta electrónica</span>
+          <span>Multijuego</span>
+        </div>
+      </article>
+
       <article class="feature-card">
+        <span class="feature-num">02</span>
         <div class="feature-icon"><svg class="ico"><use href="#i-laptop"/></svg></div>
         <h3>Computadores portátiles</h3>
         <p>Equipos disponibles para que realices tus apuestas online Wplay.co con total comodidad.</p>
       </article>
+
       <article class="feature-card">
-        <div class="feature-icon"><svg class="ico"><use href="#i-tv"/></svg></div>
-        <h3>Pantallas de 50"</h3>
-        <p>Transmitimos los mejores partidos de la fecha en pantallas grandes para que no te pierdas detalle.</p>
-      </article>
-      <article class="feature-card">
+        <span class="feature-num">03</span>
         <div class="feature-icon"><svg class="ico"><use href="#i-printer"/></svg></div>
         <h3>Impresión de tickets</h3>
         <p>Impresoras disponibles para tus tickets de apuestas y documentos de retiro.</p>
       </article>
+
       <article class="feature-card">
+        <span class="feature-num">04</span>
         <div class="feature-icon"><svg class="ico"><use href="#i-cash"/></svg></div>
         <h3>Cobros en caja</h3>
         <p>Realiza tus cobros directamente en la caja del casino, de manera rápida y segura.</p>
       </article>
+
       <article class="feature-card">
+        <span class="feature-num">05</span>
         <div class="feature-icon"><svg class="ico"><use href="#i-headphones"/></svg></div>
         <h3>Atención de excelencia</h3>
         <p>Servicio al cliente cercano, capacitado y dispuesto a resolver todas tus dudas.</p>
       </article>
-      <article class="feature-card">
-        <div class="feature-icon"><svg class="ico"><use href="#i-dice"/></svg></div>
-        <h3>Máquinas de juego</h3>
-        <p>Variedad de máquinas tragamonedas y juegos electrónicos para todos los gustos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Nuestras Sedes -->
+<section id="sedes" class="section">
+  <div class="container">
+    <h2 class="section-title">Nuestras sedes en Villavicencio</h2>
+    <p class="section-sub">Más de 18 centros de entretenimiento te esperan en el Meta</p>
+
+    <div class="sede-grid">
+      <article class="sede-card sede-featured">
+        <a href="parque-acha.html" class="sede-art sede-art-img" style="background-image:url('statics/parque-acha/uno.png');">
+          <span class="sede-overlay-tag">Ver sede →</span>
+        </a>
+        <div class="sede-body">
+          <span class="tile-tag"><svg class="ico"><use href="#i-tree"/></svg> Club</span>
+          <h3>Casino Fortuna Club</h3>
+          <p>Parque del Hacha · Calle 36 · Villavicencio</p>
+          <a href="parque-acha.html" class="sede-link">Ver galería y ubicación →</a>
+        </div>
+      </article>
+      <article class="sede-card sede-featured">
+        <a href="hotel-estelar.html" class="sede-art sede-art-img" style="background-image:url('statics/hotel-estelar/uno.png');">
+          <span class="sede-overlay-tag">Ver sede →</span>
+        </a>
+        <div class="sede-body">
+          <span class="tile-tag"><svg class="ico"><use href="#i-star"/></svg> Hotel</span>
+          <h3>Casino Fortuna Hotel Estelar</h3>
+          <p>Hotel Estelar · Villavicencio</p>
+          <a href="hotel-estelar.html" class="sede-link">Ver galería y ubicación →</a>
+        </div>
+      </article>
+      <article class="sede-card">
+        <div class="sede-art sede-art-img" style="background-image:url('statics/viva/uno.jpg');">
+          <span class="sede-overlay-tag">Viva Villavicencio</span>
+        </div>
+        <div class="sede-body">
+          <span class="tile-tag"><svg class="ico"><use href="#i-bag"/></svg> Centro comercial</span>
+          <h3>Casino Fortuna Viva</h3>
+          <p>Viva Villavicencio · Centro Comercial</p>
+          <a href="#contacto" class="sede-link">Cómo llegar →</a>
+        </div>
       </article>
     </div>
   </div>
@@ -213,41 +279,52 @@
   </div>
 </section>
 
-<!-- Eventos -->
+<!-- Lo último -->
 <section id="eventos" class="section section-dark">
   <div class="container">
-    <h2 class="section-title">Eventos</h2>
-    <p class="section-sub">Vive momentos únicos: música, deporte y diversión bajo un mismo techo</p>
+    <div class="news-head">
+      <div>
+        <span class="hero-eyebrow">Lo último</span>
+        <h2 class="section-title left">Noticias y novedades</h2>
+        <p class="section-sub left">Mantente al día con lo último de Casinos Fortuna</p>
+      </div>
+      <a href="https://www.instagram.com/casinosfortuna.oficial" target="_blank" rel="noopener" class="btn btn-outline">
+        <svg class="ico"><use href="#i-instagram"/></svg> Ver más en Instagram
+      </a>
+    </div>
 
-    <div class="event-grid">
-      <article class="event-card">
-        <div class="event-art" style="background:linear-gradient(135deg,#e10b3d,#3a0008);">
-          <span class="event-icon"><svg class="ico"><use href="#i-mic"/></svg></span>
-        </div>
-        <div class="event-body">
-          <span class="tile-tag">Música en vivo</span>
-          <h3>Noches llaneras</h3>
-          <p>Disfruta de presentaciones en vivo de artistas locales y regionales todos los fines de semana.</p>
-        </div>
-      </article>
-      <article class="event-card">
-        <div class="event-art" style="background:linear-gradient(135deg,#ffb300,#a02000);">
-          <span class="event-icon"><svg class="ico"><use href="#i-trophy"/></svg></span>
-        </div>
-        <div class="event-body">
-          <span class="tile-tag">Deportes</span>
-          <h3>Transmisiones en vivo</h3>
-          <p>Los mejores partidos de la fecha en pantallas gigantes, con la mejor compañía y buena comida.</p>
+    <div class="news-grid">
+      <article class="news-card">
+        <a href="statics/lo-ultimo/uno.jpeg" target="_blank" class="news-art">
+          <img src="statics/lo-ultimo/uno.jpeg" alt="Casinos Fortuna — Noticia 1" loading="lazy" />
+          <span class="news-badge">Nuevo</span>
+        </a>
+        <div class="news-body">
+          <span class="news-meta"><svg class="ico"><use href="#i-clock"/></svg> Reciente</span>
+          <h3>Novedades en Casinos Fortuna</h3>
+          <p>Sigue de cerca todo lo que está pasando en nuestras sedes de Villavicencio.</p>
         </div>
       </article>
-      <article class="event-card">
-        <div class="event-art" style="background:linear-gradient(135deg,#c1002a,#260b13);">
-          <span class="event-icon"><svg class="ico"><use href="#i-gift"/></svg></span>
+      <article class="news-card">
+        <a href="statics/lo-ultimo/dos.jpeg" target="_blank" class="news-art">
+          <img src="statics/lo-ultimo/dos.jpeg" alt="Casinos Fortuna — Noticia 2" loading="lazy" />
+          <span class="news-badge">Destacado</span>
+        </a>
+        <div class="news-body">
+          <span class="news-meta"><svg class="ico"><use href="#i-clock"/></svg> Reciente</span>
+          <h3>Eventos y promociones</h3>
+          <p>Nuevas actividades especiales para nuestros clientes en el Hotel Estelar y el Parque del Hacha.</p>
         </div>
-        <div class="event-body">
-          <span class="tile-tag">Especiales</span>
-          <h3>Sorteos y promociones</h3>
-          <p>Premios, regalos y actividades especiales para nuestros clientes frecuentes a lo largo del año.</p>
+      </article>
+      <article class="news-card">
+        <a href="statics/lo-ultimo/tres.jpeg" target="_blank" class="news-art">
+          <img src="statics/lo-ultimo/tres.jpeg" alt="Casinos Fortuna — Noticia 3" loading="lazy" />
+          <span class="news-badge">Wplay.co</span>
+        </a>
+        <div class="news-body">
+          <span class="news-meta"><svg class="ico"><use href="#i-clock"/></svg> Reciente</span>
+          <h3>Apuestas y entretenimiento</h3>
+          <p>Lo mejor de Wplay.co directamente en nuestras salas autorizadas.</p>
         </div>
       </article>
     </div>
@@ -316,50 +393,6 @@
   </div>
 </section>
 
-<!-- Nuestras Sedes -->
-<section id="sedes" class="section">
-  <div class="container">
-    <h2 class="section-title">Nuestras sedes en Villavicencio</h2>
-    <p class="section-sub">Más de 18 centros de entretenimiento te esperan en el Meta</p>
-
-    <div class="sede-grid">
-      <article class="sede-card sede-featured">
-        <a href="parque-acha.html" class="sede-art sede-art-img" style="background-image:url('statics/parque-acha/uno.png');">
-          <span class="sede-overlay-tag">Ver sede →</span>
-        </a>
-        <div class="sede-body">
-          <span class="tile-tag"><svg class="ico"><use href="#i-tree"/></svg> Club</span>
-          <h3>Casino Fortuna Club</h3>
-          <p>Parque del Hacha · Calle 36 · Villavicencio</p>
-          <a href="parque-acha.html" class="sede-link">Ver galería y ubicación →</a>
-        </div>
-      </article>
-      <article class="sede-card sede-featured">
-        <a href="hotel-estelar.html" class="sede-art sede-art-img" style="background-image:url('statics/hotel-estelar/uno.png');">
-          <span class="sede-overlay-tag">Ver sede →</span>
-        </a>
-        <div class="sede-body">
-          <span class="tile-tag"><svg class="ico"><use href="#i-star"/></svg> Hotel</span>
-          <h3>Casino Fortuna Hotel Estelar</h3>
-          <p>Hotel Estelar · Villavicencio</p>
-          <a href="hotel-estelar.html" class="sede-link">Ver galería y ubicación →</a>
-        </div>
-      </article>
-      <article class="sede-card">
-        <div class="sede-art sede-art-img" style="background-image:url('statics/viva/uno.jpg');">
-          <span class="sede-overlay-tag">Viva Villavicencio</span>
-        </div>
-        <div class="sede-body">
-          <span class="tile-tag"><svg class="ico"><use href="#i-bag"/></svg> Centro comercial</span>
-          <h3>Casino Fortuna Viva</h3>
-          <p>Viva Villavicencio · Centro Comercial</p>
-          <a href="#contacto" class="sede-link">Cómo llegar →</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
 <!-- Estados Financieros -->
 <section id="financieros" class="section">
   <div class="container fin-grid">
@@ -389,15 +422,20 @@
 <section class="section section-dark">
   <div class="container">
     <h2 class="section-title">♦ Ubicación ♦</h2>
-    <p class="section-sub">Visítanos en el centro de Villavicencio, Meta</p>
+    <p class="section-sub">Visítanos en Casino Fortuna Hotel Estelar, Villavicencio</p>
 
-    <div class="map-wrap">
+    <div class="map-wrap map-clean">
       <iframe
-        src="https://www.google.com/maps?q=Cra.%2032%20%2337-16%20Centro%20Villavicencio%20Meta&output=embed"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15917.799133622466!2d-73.65749591284182!3d4.131558500000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2fcc4a41e0f7%3A0xa4dc76ae0901f702!2sCasino%20Fortuna%20HOTEL%20ESTELAR!5e0!3m2!1ses-419!2sco!4v1779247205208!5m2!1ses-419!2sco"
         width="100%" height="420" style="border:0;"
         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-        title="Ubicación Casinos Fortuna">
+        title="Ubicación Casino Fortuna Hotel Estelar">
       </iframe>
+    </div>
+
+    <div class="map-actions">
+      <a href="https://www.google.com/maps/place/Casino+Fortuna+HOTEL+ESTELAR" target="_blank" rel="noopener" class="btn btn-primary">Abrir en Google Maps</a>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Casino+Fortuna+HOTEL+ESTELAR+Villavicencio" target="_blank" rel="noopener" class="btn btn-outline">Cómo llegar</a>
     </div>
   </div>
 </section>
@@ -441,10 +479,9 @@
 <!-- Footer -->
 <footer class="footer">
   <div class="container footer-grid">
-    <div>
+    <div class="footer-brand">
       <a href="#" class="brand brand-footer">
         <img src="statics/logocasino.png" alt="Casinos Fortuna" />
-        <span>Casinos<strong>Fortuna</strong></span>
       </a>
       <p class="muted">Diversión, juego responsable y la mejor atención en Villavicencio, Meta. Punto autorizado Wplay.co.</p>
       <div class="badges">
@@ -455,13 +492,28 @@
     </div>
     <div>
       <h4>Contáctenos</h4>
-      <a href="tel:3123527704">312 352 7704</a>
-      <a href="tel:3143420059">314 342 0059</a>
-      <a href="tel:86628127">8 662 8127</a>
-      <a href="mailto:recreativoslafortuna@gmail.com">recreativoslafortuna@gmail.com</a>
-      <a href="#">Cra. 32 Nº 37-16 Centro</a>
-      <a href="#">Villavicencio – Meta</a>
-      <a href="#">09:00 am – 12:00 pm</a>
+      <ul class="footer-contact">
+        <li>
+          <svg class="ico"><use href="#i-phone"/></svg>
+          <div>
+            <a href="tel:3123527704">312 352 7704</a>
+            <a href="tel:3143420059">314 342 0059</a>
+            <a href="tel:86628127">8 662 8127</a>
+          </div>
+        </li>
+        <li>
+          <svg class="ico"><use href="#i-mail"/></svg>
+          <a href="mailto:recreativoslafortuna@gmail.com">recreativoslafortuna@gmail.com</a>
+        </li>
+        <li>
+          <svg class="ico"><use href="#i-map-pin"/></svg>
+          <span>Cra. 32 Nº 37-16 Centro<br>Villavicencio – Meta</span>
+        </li>
+        <li>
+          <svg class="ico"><use href="#i-clock"/></svg>
+          <span>09:00 am – 12:00 pm</span>
+        </li>
+      </ul>
     </div>
     <div>
       <h4>Síguenos</h4>
