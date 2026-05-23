@@ -154,8 +154,27 @@
   burger.addEventListener('click', () => {
     setOpen(!links.classList.contains('open'));
   });
+
+  // Mobile dropdown toggles — expand submenu without closing full menu
+  links.querySelectorAll('.nav-dropdown').forEach(drop => {
+    const toggle = drop.querySelector('.nav-dropdown-toggle');
+    if (!toggle) return;
+    toggle.addEventListener('click', (e) => {
+      if (window.innerWidth <= 1100 && links.classList.contains('open')) {
+        e.preventDefault();
+        drop.classList.toggle('is-open');
+      }
+    });
+  });
+
   links.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => setOpen(false));
+    a.addEventListener('click', (e) => {
+      if (a.classList.contains('nav-dropdown-toggle') &&
+          window.innerWidth <= 1100 && links.classList.contains('open')) {
+        return; // handled by dropdown toggle, don't close menu
+      }
+      setOpen(false);
+    });
   });
   // Close on Escape
   document.addEventListener('keydown', (e) => {
